@@ -39,12 +39,18 @@
 @media only screen and (min-width: 640px) {
 
     .col-3 {
-        width: 33.333333333%;
+        width: 25%;
     }
 
-    .col-4 {}
+    .col-4 {
+        width: 33.333333%;
+    }
 
-    .col-6 {}
+    .col-6 {
+        width: 50%;
+    }
 
-    .col-12 {}
+    .col-12 {
+        width: 100%;
+    }
 }
