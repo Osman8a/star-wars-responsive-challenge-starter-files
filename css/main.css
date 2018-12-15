@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+.nav-bar {
+    background-color: #F0BD35;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    text-align: left;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.nav-bar .logo,
+.nav-bar .lema {
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    top: 20px;
+    left: 100px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lema {
+    padding-top: 10px;
+}
+
+
+main {
+    margin-top: 110px;
+}
+
+/* Box  */
+
+.box {
+    height: 300px;
+    width: 100%;
+    border: 1px solid #F5F5F5;
+}
+
+.card-one {
+    margin-right: 20px;
+}
+
+.description {
+    border: 1px solid #F5F5F5;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.description .actor {
+    font-weight: bold;
+}
+
+
+.card-one {
+    background: url(../images/rey_square.png);
+    background-size: cover;
+}
+
+.card-two {
+    background: url(../images/finn_square.png);
+    background-size: cover;
+}
+
+.card-three {
+    background: url(../images/kylo_square.png);
+    background-size: cover;
+}
+
+.card-four {
+    background: url(../images/poe_square.png);
+    background-size: cover;
+}
+
+.card-five {
+    background: url(../images/chewbacca_square.png);
+    background-size: cover;
+}
+
+.card-six {
+    background: url(../images/yoda.jpg);
+    background-size: cover;
+}
